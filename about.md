@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am currently an undergraduate student at the Nanyang Technological University, Singapore. I will be graduating in May 2017 with a Bachelor's Degree in the field of Computer Science with specialization in Intelligent Agents and High Performance Computing.  My university experience was fulfilling in which I have successfully completed FYP-URECA, URECA, MiE and an overseas internship program.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Visit http://madhavanseshadri.com/ to know more details about me!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[madhavan001@e.ntu.edu.sg](madhavan001@e.ntu.edu.sg)
