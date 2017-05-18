@@ -1,6 +1,3 @@
-SSH into Rostsam
-------------------
-
 Today, in my first attempts to ssh into the Rostam Cluster hosted at LSU, was hit with a roadblock but in the process learnt quite a bit about the encryption system and how the public/private keys are used for authentication, though was not relevant to the solution of the problem.
 
 As such the process is to first generate a public/private key pair using ssh-keygen on Unix based systems or using puttygen for the same in Windows.
