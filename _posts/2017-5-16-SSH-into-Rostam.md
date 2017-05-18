@@ -2,7 +2,7 @@ Today, in my first attempts to ssh into the Rostam Cluster hosted at LSU, was hi
 
 Rostam
 ----------
-Rostam is an all compute node cluster at LSU CCT lab. It has various computing nodes and different machines. Rostam uses SLURM for job scheduling and has been partitioned into many smaller compute cluster. More details about the cluster can be found at https://github.com/STEllAR-GROUP/hpx/wiki/Running-HPX-on-Rostam.
+Rostam is an all compute node cluster at LSU CCT lab. It has various computing nodes and different machines. Rostam uses SLURM for job scheduling and has been partitioned into many smaller compute cluster. More details about the cluster can be found at [Wiki](https://github.com/STEllAR-GROUP/hpx/wiki/Running-HPX-on-Rostam).
 
 For this project, I would be possibly required to use Bahram/Reno/Tycho, using the following type of commands:
 
@@ -21,4 +21,4 @@ So, the mistake I had commited was to overlook the permissions while creaating a
 
 So once I changed the owner using sudo chown ubuntu:ubuntu ~/.ssh/key-file it worked perfectly. But the whole process took gruesomely long number of hours and my mentor diehlpk helped me fix this in the end.
 
-A good blog to follow in such a process is https://help.ubuntu.com/community/SSH/OpenSSH/Keys
+A good blog to follow in such a process is (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
