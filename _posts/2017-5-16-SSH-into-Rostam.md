@@ -1,5 +1,18 @@
 Today, in my first attempts to ssh into the Rostam Cluster hosted at LSU, was hit with a roadblock but in the process learnt quite a bit about the encryption system and how the public/private keys are used for authentication, though was not relevant to the solution of the problem.
 
+Rostam
+----------
+Rostam is an all compute node cluster at LSU CCT lab. It has various computing nodes and different machines. Rostam uses SLURM for job scheduling and has been partitioned into many smaller compute cluster. More details about the cluster can be found at https://github.com/STEllAR-GROUP/hpx/wiki/Running-HPX-on-Rostam.
+
+For this project, I would be possibly required to use Bahram/Reno/Tycho, using the following type of commands:
+
+```
+srun -p <partition> -N <number-of-nodes> <path-hpx-application> [-n <number-of-processes>] [-c <number-of-cores-per-process>]
+```
+
+Setting up OpenSSH to the cluster
+-----------------------------------
+
 As such the process is to first generate a public/private key pair using ssh-keygen on Unix based systems or using puttygen for the same in Windows.
 
 Then, the way the system works is to place a public key on the server in ~/.ssh/authorized_keys and then connect to the server with the private key. This ensures that the communication made between the client & server is encrypted and decrypted using relevant keys. This is much more secure than using a password based mechanism for logging in. Key-based authentication mechanism is hard to brute force.
