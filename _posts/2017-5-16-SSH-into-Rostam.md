@@ -21,4 +21,4 @@ So, the mistake I had commited was to overlook the permissions while creaating a
 
 So once I changed the owner using sudo chown ubuntu:ubuntu ~/.ssh/key-file it worked perfectly. But the whole process took gruesomely long number of hours and my mentor diehlpk helped me fix this in the end.
 
-A good blog to follow in such a process is (https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
+A good blog to follow in such a process is [Ubuntu SSH](https://help.ubuntu.com/community/SSH/OpenSSH/Keys)
