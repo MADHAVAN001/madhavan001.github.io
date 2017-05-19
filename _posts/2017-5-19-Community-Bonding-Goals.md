@@ -1,0 +1,5 @@
+So, I had my second VC (Video-Conference) meeting with my mentor diehlpk. The major point discussed in this week's meeting was on which should be the more focusing point over the course of the following two weeks till the official coding window begins.
+
+In the last VC, we had discussed about fixing the [issue #31](https://github.com/STEllAR-GROUP/hpxcl/issues/31), however this seems to have already been solved with the updates in CUDA SDK from after version 6.5. As such, while trying to reproduce the error under the same environment, the code did not produce the run-time error as reported. I have since informed of this and have asked to close this issue.
+
+Over the following weeks, I shall be creating a new example in the CUDA part, which has been missing in comparison to the OpenCL part, namely the Mandelbrot Set.

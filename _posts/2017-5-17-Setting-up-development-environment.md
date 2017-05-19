@@ -1,6 +1,6 @@
 So, as such I had previously compiled and built hpx, hpxcl for Windows with Visual Studio 2015 during the proposal phase of GSoC.
 
-Now, I need will be shifting development machine and will not be having a laptop with cuda compatability for a brief period of time. So, I need to be able to write code on my development machine and run it on Rostam in the mean-time. Since I need to be able to make sure, the code builds properly, I needed to install in my development Machine (Windows and Ubuntu on Windows) and Rostaam.
+Now, I need will be shifting development machine and will not be having a laptop with cuda compatability for a brief period of time. So, I need to be able to write code on my development machine and run it on Rostam in the mean-time. Since I need to be able to make sure, the code builds properly, I needed to install in my development Machine (Windows and Ubuntu on Windows) and Rostam.
 
 Installing HPX on Windows
 ---------------------------
