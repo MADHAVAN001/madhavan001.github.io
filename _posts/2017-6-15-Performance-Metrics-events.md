@@ -1,4 +1,4 @@
-The native CUDA events can be used to measure the performance of tasks in te stream.
+The native CUDA events can be used to measure the performance of tasks in the stream.
 
 Streams
 -----------------------
