@@ -11,6 +11,7 @@ Features:
 4. Provide 19 tests for OpenCL enabled benchmarking and 15 for OpenMP enabled benchmarking.
 
 List of Problems:
+
 ![SPEC_LIST](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/SPEC_list_problems.PNG)
 
 Lulesh (Livermore Unstructured Lagrangian Explicit Shock Hydrodynamics) 
@@ -39,6 +40,7 @@ Features:
 3. Runs with different modes of operation, nodes, for instance single (randomly selected node on a cluster), star (independent copy of results were run concurrently) and global (processors were working in coordination)
 
 List of Problems:
+
 ![HPCC_LIST](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/HPCC_list_problems.PNG)
 
 
@@ -54,6 +56,7 @@ Features:
 2. Discusses the steps involved in the parallelization of the kernel.
 
 List of Problems:
+
 ![PRK_LIST](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/PRK_list_problems.PNG)
 
 Details in [4].
