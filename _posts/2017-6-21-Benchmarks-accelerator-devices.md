@@ -62,6 +62,42 @@ List of Problems:
 Details in [4].
 
 
+NAS Parallel Benchmark
+-----------------------------------------------
+This benchmarks is developed by NASA Advanced Supercomputing division for performance evaluation of Highly Parallel Supercomputers. [7]
+
+
+
+DGEMM
+----------------------------------------------
+This benchmark is developed by Sandia National Laboratories.
+The Crossroads/N9 DGEMM benchmark is a simple, multi-threaded, dense-matrix multiply benchmark. The code is designed to measure the sustained, floating-point computational rate of a single node. [6]
+
+Features:
+1. This benchmark is used for testing individual node in the network.
+
+List of Problems:
+Dense Matrix Multiplication problem.
+
+
+
+NERSC-8(TRINITY BENCHMARKS)
+-------------------------------------------
+This benchmark is developed by National Energy Research Scientific Computing Center. The set of kernels are used for Trinity System Procurement.[5]
+
+Features:
+1. There are two kinds of behcmarks:
+a. Mini Apllications: miniFE, miniGhost, AMG, UMT, GTC, MILC, SNAP, and miniDFT
+b. Micro Benchmarks: Pynamic, STREAM, OMB, SMB, ZiaTest, IOR, Metabench, PSNAP, FSTest, mpimemu, and UPC_FT
+2. Detailed problem is explained in the images below.
+
+List of Problems:
+
+![TRINITY_1](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/TRINITY_list_problems.PNG)
+
+![TRINITY_2](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/TRINITY_list_problems2.PNG)
+
+
 
 References:
 -------------------
@@ -72,3 +108,10 @@ References:
 [3] HPC Challenge Benchmark. Retrieved from: [http://icl.cs.utk.edu/hpcc/](http://icl.cs.utk.edu/hpcc/) on: 20 June 2017
 
 [4] The Parallel Research Kernels. Retrieved from: [https://pdfs.semanticscholar.org/764f/2039c7e6e1181e33f704d8dc37cb715d9aaf.pdf](https://pdfs.semanticscholar.org/764f/2039c7e6e1181e33f704d8dc37cb715d9aaf.pdf) on: 20 June 2017
+
+[5] NERSC-8(TRINITY Benchmark). Retrieved From: [http://www.nersc.gov/users/computational-systems/cori/nersc-8-procurement/trinity-nersc-8-rfp/nersc-8-trinity-benchmarks/](http://www.nersc.gov/users/computational-systems/cori/nersc-8-procurement/trinity-nersc-8-rfp/nersc-8-trinity-benchmarks/) on: 2nd July 2017
+
+[6] DGEMM. Retrieved From: [http://www.nersc.gov/research-and-development/apex/apex-benchmarks/dgemm/](http://www.nersc.gov/research-and-development/apex/apex-benchmarks/dgemm/) on: 2nd July 2017
+
+[7] NAS Parallel Benchmarks. Retrieved From: [https://www.nas.nasa.gov/publications/npb.html](https://www.nas.nasa.gov/publications/npb.html) on: 2nd July 2017
+
