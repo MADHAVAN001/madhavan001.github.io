@@ -66,7 +66,13 @@ NAS Parallel Benchmark
 -----------------------------------------------
 This benchmarks is developed by NASA Advanced Supercomputing division for performance evaluation of Highly Parallel Supercomputers. [7]
 
+Features:
+1. Five main kernels are available for computation.
+2. Focused towards measuring the communication bottlenecks of systems under test.
+3. More suitable for testing MPI-like systems.
 
+List of Problems:
+![NAS](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/NAS_list_problems.PNG)
 
 DGEMM
 ----------------------------------------------
@@ -78,8 +84,6 @@ Features:
 
 List of Problems:
 Dense Matrix Multiplication problem.
-
-
 
 NERSC-8(TRINITY BENCHMARKS)
 -------------------------------------------
