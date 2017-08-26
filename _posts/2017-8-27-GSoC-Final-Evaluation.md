@@ -85,17 +85,11 @@ This PR is aimed at implementing the Sparse Matrix Vector Multiplication benchma
 Multiple Stream Version:
 ![Multiple Stream Version SMVP](https://raw.githubusercontent.com/MADHAVAN001/madhavan001.github.io/master/images/smvp.png)
 
-Scripts for generating graphs
------------------------------------------------------------------------
-**Pull Request:** [https://github.com/STEllAR-GROUP/hpxcl/pull/65](https://github.com/STEllAR-GROUP/hpxcl/pull/65)
-
-This PR is aimed at providing scripts for running and comparing different algorithms in Rostam. Currently developed for comparing Native CUDA and HPXCL CUDA application, but can be extended to adding HPXCL OPENCL and OPENCL versions of the code and comparing them in plots. Scripts written in python.
-
 Implementing Benchmarks in OpenCL
 ------------------------------------------------------------------------
 **Pull Request:** [https://github.com/STEllAR-GROUP/hpxcl/pull/64](https://github.com/STEllAR-GROUP/hpxcl/pull/64) and [https://github.com/STEllAR-GROUP/hpxcl/pull/60](https://github.com/STEllAR-GROUP/hpxcl/pull/60)
 
-**Branch has not been merged yet and is work in progress.**
+*Branch has not been merged yet and is work in progress.*
 
 The two PRs aimed at adding the OpenCL versions of Stencil, Partition and Stream benchmarks. The benchmarks were not available for the native OpenCL comparison. These PRs aim to help make meaningful comparisons for the future profiling of code. (Some more minor corrections have to be made before PR can be merged with master).
 
@@ -105,7 +99,7 @@ Tests for HPXCL CUDA
 
 **Comparative difference:** [https://github.com/STEllAR-GROUP/hpxcl/compare/cuda_tests?expand=1](https://github.com/STEllAR-GROUP/hpxcl/compare/cuda_tests?expand=1)
 
-**Branch has not been merged yet and is work in progress.**
+*Branch has not been merged yet and is work in progress.*
 
 This branch is used for addition of tests for the HPXCL CUDA version. Tests need to be added to check the behaviour of the code in dynamic situations. Unit tests are written to test each individual component function.
 
@@ -135,4 +129,20 @@ Tests to check proper device load from localities.
 5. Info Test
 Test to check if valid device information can be obtained from the environment.
 
+Scripts for generating graphs
+-----------------------------------------------------------------------
+**Pull Request:** [https://github.com/STEllAR-GROUP/hpxcl/pull/65](https://github.com/STEllAR-GROUP/hpxcl/pull/65)
 
+This PR is aimed at providing scripts for running and comparing different algorithms in Rostam. Currently developed for comparing Native CUDA and HPXCL CUDA application, but can be extended to adding HPXCL OpenCL and OpenCL versions of the code and comparing them in plots. Scripts written in python.
+
+
+
+Work to be performed after GSoC
+---------------------------------------------------------
+Following are the list of tasks to be performed as a continuation to the GSoC work.
+
+1. Additional Regression and Performance tests.
+2. Optimization to HPXCL OpenCL to improve performance to the benchmarks.
+3. Additional benchmark, namely Dense Matrix Transpose.
+
+All of this work will be summarized and extended as a Research paper, aimed to be submitted to a Conference.
