@@ -10,6 +10,7 @@ List of Issues: [https://github.com/STEllAR-GROUP/hpxcl/issues?utf8=%E2%9C%93&q=
 Mandelbrot Example in HPXCL CUDA
 --------------------------------------------------
 **Pull Request:** [https://github.com/STEllAR-GROUP/hpxcl/pull/54](https://github.com/STEllAR-GROUP/hpxcl/pull/54)
+
 **Blog Post:** [https://madhavan001.github.io/Mandelbrot-hpxcl-example/](https://madhavan001.github.io/Mandelbrot-hpxcl-example/)
 
 
@@ -23,7 +24,9 @@ Event Based Code Profiling of Mandelbrot HPXCL CUDA
 --------------------------------------------------------------------
 
 **Branch:** [https://github.com/STEllAR-GROUP/hpxcl/tree/mandelbrot_events](https://github.com/STEllAR-GROUP/hpxcl/tree/mandelbrot_events)
-**Comparative Difference: ** [https://github.com/STEllAR-GROUP/hpxcl/compare/mandelbrot_events?expand=1](https://github.com/STEllAR-GROUP/hpxcl/compare/mandelbrot_events?expand=1)
+
+**Comparative Difference:** [https://github.com/STEllAR-GROUP/hpxcl/compare/mandelbrot_events?expand=1](https://github.com/STEllAR-GROUP/hpxcl/compare/mandelbrot_events?expand=1)
+
 **Blog Post:** [https://madhavan001.github.io/Performance-Metrics-events/](https://madhavan001.github.io/Performance-Metrics-events/)
 
 **Work only for analytical purpose. Will not be merged!**
@@ -36,6 +39,7 @@ Surveying Benchmarks for code profiling and comparison
 ----------------------------------------------------------------------
 
 **Issue:** [https://github.com/STEllAR-GROUP/hpxcl/issues/44](https://github.com/STEllAR-GROUP/hpxcl/issues/44)
+
 **Blog Post:** [https://madhavan001.github.io/Benchmarks-accelerator-devices/](https://madhavan001.github.io/Benchmarks-accelerator-devices/)
 
 
@@ -98,6 +102,7 @@ The two PRs aimed at adding the OpenCL versions of Stencil, Partition and Stream
 Tests for HPXCL CUDA
 --------------------------------------------------------------------------
 **Branch:** [https://github.com/STEllAR-GROUP/hpxcl/tree/cuda_tests](https://github.com/STEllAR-GROUP/hpxcl/tree/cuda_tests)
+
 **Comparative difference:** [https://github.com/STEllAR-GROUP/hpxcl/compare/cuda_tests?expand=1](https://github.com/STEllAR-GROUP/hpxcl/compare/cuda_tests?expand=1)
 
 **Branch has not been merged yet and is work in progress.**
